@@ -47,6 +47,7 @@ export default function InstagramFeed() {
               className="group relative aspect-square rounded-xl overflow-hidden bg-gray-100 cursor-pointer"
             >
               <img 
+                referrerPolicy="no-referrer"
                 src={src} 
                 alt={`Instagram post ${index + 1}`} 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

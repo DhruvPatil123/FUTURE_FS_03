@@ -106,6 +106,7 @@ export default function Services() {
             </div>
             <div className="relative h-64 lg:h-full min-h-[300px] rounded-2xl overflow-hidden hidden md:block">
                <img 
+                 referrerPolicy="no-referrer"
                  src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?q=80&w=1000&auto=format&fit=crop" 
                  alt="Store interior"
                  className="absolute inset-0 w-full h-full object-cover"

@@ -63,10 +63,11 @@ export default function Hero() {
             className="relative lg:h-[600px] flex justify-center lg:justify-end"
           >
             <div className="relative w-full max-w-md lg:max-w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5 bg-gray-100">
-              <img 
-                src="https://images.unsplash.com/photo-1601784551446-20c9e07cd56e?q=80&w=2000&auto=format&fit=crop" 
-                alt="Latest smartphones" 
-                className="w-full h-full object-cover"
+              <iframe 
+                className="absolute inset-x-0 inset-y-0 w-full h-[150%] -top-[25%] pointer-events-none"
+                src="https://www.youtube.com/embed/c347oYQO57A?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&rel=0&playsinline=1&playlist=c347oYQO57A"
+                allow="autoplay; encrypted-media"
+                title="Smartphone showcase"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gray-900/60 via-transparent to-transparent"></div>
               <div className="absolute bottom-0 left-0 right-0 p-8">

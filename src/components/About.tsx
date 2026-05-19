@@ -18,6 +18,7 @@ export default function About() {
                 className="h-64 md:h-80 rounded-3xl overflow-hidden mt-8"
               >
                 <img 
+                  referrerPolicy="no-referrer"
                   src="https://images.unsplash.com/photo-1541560052-5e137f229371?q=80&w=1000&auto=format&fit=crop" 
                   alt="Mobile Store" 
                   className="w-full h-full object-cover"
@@ -31,6 +32,7 @@ export default function About() {
                 className="h-64 md:h-80 rounded-3xl overflow-hidden"
               >
                 <img 
+                  referrerPolicy="no-referrer"
                   src="https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?q=80&w=1000&auto=format&fit=crop" 
                   alt="Phone Repair" 
                   className="w-full h-full object-cover"

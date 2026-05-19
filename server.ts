@@ -19,6 +19,12 @@ async function startServer() {
     res.json({ success: true, message: "Thank you for reaching out! We'll get back to you soon." });
   });
 
+  app.post("/api/reviews", (req, res) => {
+    // In a real application, store this in the database and notify the owner.
+    console.log("New review submission:", req.body);
+    res.json({ success: true, message: "Thank you for your review!" });
+  });
+
   // Vite middleware for development
   if (process.env.NODE_ENV !== "production") {
     const vite = await createViteServer({

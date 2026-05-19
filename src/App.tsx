@@ -7,9 +7,10 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Brands from "./components/Brands";
 import Services from "./components/Services";
+import FeaturedProducts from "./components/FeaturedProducts";
+import SpecialOffers from "./components/SpecialOffers";
 import About from "./components/About";
 import Stats from "./components/Stats";
-import SpecialOffers from "./components/SpecialOffers";
 import TradeInProcess from "./components/TradeInProcess";
 import Gallery from "./components/Gallery";
 import InstagramFeed from "./components/InstagramFeed";
@@ -29,6 +30,7 @@ export default function App() {
         <Hero />
         <Brands />
         <Services />
+        <FeaturedProducts />
         <SpecialOffers />
         <About />
         <Stats />

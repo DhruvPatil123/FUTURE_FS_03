@@ -37,6 +37,7 @@ export default function Gallery() {
               className="group relative aspect-[4/5] rounded-2xl overflow-hidden bg-gray-100 cursor-pointer"
             >
               <img 
+                referrerPolicy="no-referrer"
                 src={src} 
                 alt="Gallery item" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
