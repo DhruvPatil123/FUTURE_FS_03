@@ -1,0 +1,8 @@
+{
+  "name": "Shri Krishna Mobiles - Website",
+  "description": "Professional website for Shri Krishna Mobiles, a cell phone store in Nagpur offering mobiles, repairs, and accessories.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
