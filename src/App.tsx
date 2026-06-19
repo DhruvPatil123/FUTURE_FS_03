@@ -3,6 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Brands from "./components/Brands";
@@ -45,6 +46,7 @@ export default function App() {
       <Footer />
       <WhatsAppButton />
       <ScrollToTop />
+      <Analytics />
     </div>
   );
 }
